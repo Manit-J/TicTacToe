@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\n\ A\ class\ modelling\ a\ tic-tac-toe\ (noughts\ and\ crosses,\ Xs\ and\ Os)\ game.\n\ \n\ Citation\ for\ icons\:\ I\ made\ my\ own\ icons.\ I\ didn't\ borrow\ any\ icons\ from\ the\ internet.\n\ \n\ Citation\ for\ sounds\:\n\ Player\ X\ sound\:\ https\://mixkit.co/free-sound-effects/click/,\ I\ used\ the\ Arcade\ game\ jump\ coin\ sound.\n\ Player\ O\ sound\:\ https\://mixkit.co/free-sound-effects/click/,\ I\ used\ the\ Classic\ click\ sound.\n\ Game\ Over/\ winning\ sound\:\ https\://mixkit.co/free-sound-effects/click/,\ I\ used\ the\ Positive\ interface\ beep\ sound.\ \n\ \n\ @author\ Manit\ Jawa\ 101215842\n\ @version\ April\ 8,\ 2023\n\ \n\ @author\ Lynn\ Marshall\n\ @version\ November\ 8,\ 2012\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\ \n\ Constructs\ a\ new\ Tic-Tac-Toe\ board.\n
+comment2.params=event
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment5.params=
+comment5.target=void\ clearBoard()
+comment5.text=\n\ Sets\ everything\ up\ for\ a\ new\ game.\ Sets\ text\ of\ all\ buttons\ empty,\ sets\ icons\ of\ all\ buttons\ blank,\n\ enables\ all\ buttons.\ Sets\ winner\ to\ be\ empty,\ number\ of\ free\ squares\ to\ be\ 9,\ sets\ the\ starting\ player\ \n\ to\ PLAYER_X.\ Updates\ the\ label\ and\ history\ to\ display\ the\ current\ state\ of\ the\ game\ and\ the\ current\ information\n\ about\ the\ number\ of\ wins\ and\ ties.\ \n
+comment6.params=
+comment6.target=void\ playGame()
+comment6.text=\n\ Plays\ one\ game\ of\ Tic\ Tac\ Toe.\n
+comment7.params=row\ col
+comment7.target=boolean\ haveWinner(int,\ int)
+comment7.text=\n\ Returns\ true\ if\ pressing\ the\ button\ at\ the\ given\ position\ gives\ us\ a\ winner,\ and\ false\n\ otherwise.\n\n\ @param\ int\ row\ of\ button\ just\ set\n\ @param\ int\ col\ of\ button\ just\ set\n\ \n\ @return\ true\ if\ we\ have\ a\ winner,\ false\ otherwise\n
+comment8.params=e
+comment8.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment8.text=\ This\ action\ listener\ is\ called\ when\ the\ user\ clicks\ on\ \n\ any\ of\ the\ GUI's\ buttons.\ \n
+numComments=9
